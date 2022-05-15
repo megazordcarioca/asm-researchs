@@ -12,7 +12,7 @@
 # How to complile and run an asm program?
  
  * If you using a <i><b>nasm</i><b> to build: 
-    * Build your code using: <i><b>"nasm -f elf 'name of program.s or .asm'"</b></i>;
+    * Build your code using: <i><b>"nasm -f elf 'name of program.s or .asm' "</b></i>;
     * After that run command: <i><b>"ld -s -o 'name of your program' 'name of output program.o' -m elf_i386"</i></b>;
     * <b>Than...run!</b>
 
