@@ -5,7 +5,7 @@ global _start
                         ; PROGRAMMING WITH INTEL REGISTERS
 _start:                 ; CREATE PROGRAM STRUCTURE
         mov     edx,len
-        mov     ecx,msg
+        mov     ecx,msg ;; MOVE GLOBAL REGISTERS TO VARIABLE
         mov     ebx,1   ;; ARGUMENT TO EBX POINTER
         mov     eax,4   ;; ACCUMULATOR
 
@@ -17,5 +17,5 @@ _start:                 ; CREATE PROGRAM STRUCTURE
         int     0x80    ; END PROGRAM STRUCTURE
 
 section     .data
-        msg     db  'Hello World',0xa
+        msg     db  'é o cpd',0xa
         len     equ $ - msg
